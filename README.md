@@ -14,6 +14,10 @@ default_mlp_bayes.m: initialize NPN
 
 PyTorch version of NPN will be released soon.
 
+#### Other implementations (third-party):
+
+Pytorch/Python code (with extension to GRU) by [sohamghosh121](https://github.com/sohamghosh121/natural-parameter-networks).
+
 #### Reference:
 [Natural-Parameter Networks: A Class of Probabilistic Neural Networks](http://wanghao.in/paper/NIPS16_NPN.pdf)
 ```
