@@ -1,5 +1,7 @@
 This is the code for the NIPS paper ['Natural-Parameter Networks: A Class of Probabilistic Neural Networks'](http://wanghao.in/paper/NIPS16_NPN.pdf). 
 
+It is a class of probabilistic neural networks that treat both weights and neurons as distributions rather than just points in high-dimensional space. Distributions are first-citizens in the networks. The design allows distributions to feedforward and backprop across the network. Given an input data point, NPN will output a predicted distribution with information on both the prediction and uncertainty.
+
 Note that this is the code for Gaussian NPN to run on the MNIST and Boston
 Housing datasets. For Gamma NPN or Poisson NPN please go to the other repo.
 
