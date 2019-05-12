@@ -8,6 +8,16 @@ It is a class of probabilistic neural networks that treat both weights and neuro
 Note that this is the code for Gaussian NPN to run on the MNIST and Boston
 Housing datasets. For Gamma NPN or Poisson NPN please go to the other repo.
 
+## Example results:
+<p align="center">
+<img src="./figures/NPN.jpg" alt="" data-canonical-src="./figures/NPN.jpg" width="520" height="400"/>
+</p>
+Above is the predictive distribution for NPN. The shaded regions correspond
+to 3 standard deviations. The black curve is the data-generating function and blue curves
+show the mean of the predictive distributions. Red stars are the training data.
+
+## How to run the code:
+
 To train the model, run the command:
 'cd example'
 to go to the directory of the entry point and run
