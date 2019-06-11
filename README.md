@@ -27,6 +27,8 @@ example/run.sh: entry point
 mlp_bayes.m: core model code
 default_mlp_bayes.m: initialize NPN
 
+## PyTorch implementation:
+
 Official PyTorch version of NPN can be found [here](https://github.com/js05212/PyTorch-for-NPN).
 
 ## Other implementations (third-party):
